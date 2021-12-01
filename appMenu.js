@@ -36,6 +36,7 @@ let arrayOfLink = [
     aItem('Contact', '/contact')
 ]
 
+// create my menu
 let myMenu = new Menu(frame, arrayOfLink);
 myMenu.built();
 
